@@ -18,13 +18,13 @@ Welcome to my CLI banking client.
 Clone the project
 
 ```bash
-  git clone https://github.com/Somya-Garg17/Induction_Y23/tree/somya_g/
+  git clone --branch somya_g https://github.com/Somya-Garg17/Induction_Y23.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd banking-client
+  cd Induction_Y23 && cd banking_client
 ```
 
 Create a binary file
