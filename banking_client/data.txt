@@ -1,0 +1,24 @@
+manager1 passman1 BranchManager
+manager2 passman2 BranchManager
+user1 pass1 AccountHolder 766622870 Savings 2024-5-10 51000 2
+2024-5-11 Deposit 3000
+2024-5-10 Deposit 120000
+user1 pass1 AccountHolder 342662529 Current 2024-5-10 48000 0
+2024-5-10 Deposit 13843
+user2 pass2 AccountHolder 906244899 Savings 2024-5-10 12309 2
+2024-5-10 Deposit 12309
+user4 user4 AccountHolder 198302057 Savings 2024-5-10 350 2
+2024-5-10 Deposit 350
+user4 user4 AccountHolder 238555387 Savings 2024-5-10 1000 2
+2024-5-11 Deposit 1000
+2024-5-10 Deposit 3266
+user3 pass3 AccountHolder 574638797 Savings 2024-5-11 7000 2
+2024-5-11 Withdraw 1000
+2024-5-11 Withdraw 2000
+2024-5-11 Deposit 5000
+2024-5-11 Deposit 5000
+user3 pass3 AccountHolder 470371542 Current 2024-5-11 2000 0
+2024-5-11 Deposit 2000
+user1 pass1 AccountHolder 235078641 Current 2024-5-11 64000 0
+2024-5-11 Deposit 4000
+2024-5-11 Deposit 60000
