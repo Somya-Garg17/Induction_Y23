@@ -1,6 +1,0 @@
-<launch>
-  <node name="smb_highlevel_controller" pkg="smb_highlevel_controller" type="smb_highlevel_controller_node" output="screen">
-    <rosparam file="$(find smb_highlevel_controller)/config/params.yaml" />
-  </node>
-</launch>
-
