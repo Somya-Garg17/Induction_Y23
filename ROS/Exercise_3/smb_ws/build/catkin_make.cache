@@ -1,0 +1,2 @@
+smb_common_v2/smb_control:smb_common_v2/smb_description:smb_common_v2/smb_gazebo:smb_highlevel_controller
+-DCATKIN_DEVEL_PREFIX=/root/Workspaces/smb_ws/devel -DCMAKE_INSTALL_PREFIX=/root/Workspaces/smb_ws/install -G Unix Makefiles

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<launch>
+  <!-- Launch RViz -->
+  <node pkg="rviz" type="rviz" name="rviz" output="screen">
+    <!-- Load a preconfigured RViz display configuration -->
+    <param name="config" value="$(find smb_description)/rviz/smb_description.rviz"/>
+  </node>
+</launch>
+

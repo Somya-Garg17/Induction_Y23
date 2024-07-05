@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<launch>
+  <include file="$(find smb_gazebo)/launch/smb_gazebo.launch">
+    <arg name="world_file" value="$(find smb_gazebo)/worlds/singlePillar.world"/>
+    <arg name="laser_enabled" value="true"/>
+    <arg name="laser_scan_min_height" value="-0.2"/>
+    <arg name="laser_scan_max_height" value="1.0"/>
+  </include>
+
+  <!-- Node for high-level controller -->
+  <node name="pillar_controller" pkg="smb_highlevel_controller" type="smb_highlevel_controller_node" output="screen">
+    <param name="k_p" type="double" value="1.0"/> <!-- Proportional gain -->
+    <param name="max_speed" type="double" value="0.5"/> <!-- Maximum speed -->
+    <param name="min_distance" type="double" value="0.5"/> <!-- Desired distance to pillar -->
+  </node>
+
+  <!-- Load parameters from YAML file -->
+  <rosparam command="load" file="$(find smb_highlevel_controller)/config/params.yaml"/>
+
+  <!-- Launch RViz -->
+  <node pkg="rviz" type="rviz" name="rviz"/>
+</launch>
+

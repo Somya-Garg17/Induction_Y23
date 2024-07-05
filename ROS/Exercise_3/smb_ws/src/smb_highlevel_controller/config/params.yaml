@@ -1,0 +1,5 @@
+k_p: 1.0           # Proportional gain
+max_speed: 0.5     # Maximum speed of the robot
+min_distance: 0.5  # Desired distance from the pillar
+
+
